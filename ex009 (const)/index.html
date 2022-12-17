@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript const</h2>
+
+    <p>Declaring a constant array does NOT make the elements unchangeable:</p>
+
+    <p id="demo"></p>
+
+    <script>
+        // Criando nossa constante
+        const carro = {marca:'Lamborguini', cor:'Azul'};
+
+        // Mudando o atributo de cor do objeto da constante carros
+        carro.cor = 'Preto'
+
+        // Adicionando elementos no final do objeto
+        carro.dono = 'Lopez'
+
+        // Usando dom para mostrar a nossa array
+        document.getElementById('demo').innerHTML = 'Dono do(a) ' + carro.marca + ' na cor ' + carro.cor + ' é ' + carro.dono;
+    </script>
+</body>
+</html>

@@ -5,6 +5,27 @@ body{
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
+}
+
+#InfoMusic{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button{
+    font-size: 1.5em;
+}
+
+.button-navigate{
+    font-size: 2em;
+}
+
+.button-biggest{
+    font-size: 2.5em;
 }
